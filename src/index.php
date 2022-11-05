@@ -1,12 +1,12 @@
-<?php
-$str = 'ahb acb aeb aeeb adcb axeb';
-$array = explode(' ',$str);
-$result = preg_grep('/a..b/', $array);
-echo print_r($result, true). "\n";
-
-$str = 'a1b2c3';
-$func = function ($number){
-    return pow($number[0],3);
-};
-$result =  preg_replace_callback('/[0-9]+/',$func,$str);
-echo $result;
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Session and Cookie</title>
+</head>
+<body>
+<form action="form.php" method="get">
+    <textarea name="address" rows="5" cols="40"></textarea>
+    <input type="submit" value="touch me!" />
+</form>
+</body>
+</html>
